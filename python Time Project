@@ -1,0 +1,19 @@
+time = 60
+print("1.Minutes To Hours\n"
+	  "2.Hours To Minutes\n"
+	  "3.Second To Minutes\n")
+
+choice = int(input("Please Choice The Option:-")) 
+ 
+if choice == 1:
+	p = int(input("Enter Minutes:-\n"))
+	print("You Choice 1.Minutes To Hours")
+	print("You Minutes ",p/time )
+elif choice == 2:	
+	p = int(input("Enter Hours:-\n"))
+	print("You Choice 2.Hours To Minutes")	
+	print("You Hours ",p*time)
+else:
+	p = int(input("Enter Second:-\n"))
+	print("You Choice 3.Second To Minutes")
+	print("You Second ",p/time)
